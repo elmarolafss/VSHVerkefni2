@@ -1,0 +1,143 @@
+.body{
+    margin: 0 auto;
+    max-width: 70em;
+}
+.toppmenu {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 2;
+    flex: 5;
+    list-style-type: none;
+    margin: 0;
+    padding-left: 500px;
+    overflow: hidden;
+    background-color: #333;
+    padding-left: 220px;
+}
+li{
+	float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.nav{
+	font-size: 25px;
+
+}
+header{
+    display: -webkit-flex;
+    display: flex;
+	/*border: solid #e74c3c;*/
+	height: 150px;
+	background-color: #e74c3c;
+}
+.header{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex: 2;
+    flex: 5;
+	font-size: 50px;
+	font-family: Arial, Helvetica, sans-serif;
+	padding-left: 50px;
+}
+
+.flex-container {
+    display: -webkit-flex;
+    display: flex;
+   
+    background-color: lightgrey;
+}
+.flex-item {
+    background-color: #3498db;
+    margin: 0px;
+}
+.flex-item2 {
+    background-color: #f1c40f;
+    margin: 0px;
+}
+
+.item1 {
+    -webkit-flex: 2;
+    flex: 5;
+}
+
+.item2 {
+    -webkit-flex: 1;
+    flex: 3.5;
+}
+
+.item3 {
+    -webkit-flex: 1;
+    flex: 3.3;
+}
+.margin10{
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+}
+footer{
+    display: -webkit-flex;
+    display: flex;
+    flex-flow: column;    
+    height: 150px;
+    background-color: #2ecc71;
+}
+.fotur{
+    text-align: left;
+    margin: 0px;
+}
+.active{
+    color: yellow;
+}
+.box{
+    background: #2db34a;
+    height: 3em;
+    width: 3em;
+    margin: 0px;
+    color: white;
+    text-align: center;
+}
+.box-set{
+    display: -webkit-flex;
+    display: flex;
+    background-color: black;
+    position: fixed;
+    flex-direction: column;
+    margin: 0px;
+
+
+}
+.box1{
+    background-color: #3498db;
+    -webkit-flex: 1;
+    flex: 3
+    margin: 0px;
+}
+.box2{
+    background-color: #34495e;
+    -webkit-flex: 1;
+    flex: 3
+    margin: 0px;
+}
+.box3{
+    background-color: #e67e22;
+    -webkit-flex: 1;
+    flex: 3
+    margin: 0px;
+}
+.box4{
+    background-color: #e74c3c;
+    -webkit-flex: 1;
+    flex: 3
+    margin: 0px;
+}
+              
